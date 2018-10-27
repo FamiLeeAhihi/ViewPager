@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="2"
+    android:background="#000000"
+    tools:context="com.example.tuongdung.viewpager.TabFragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:src="@drawable/tuong_mien_phi"/>
+
+        <TextView
+            android:paddingLeft="20dp"
+            android:paddingBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Khuyến mãi!"
+            android:ems="10"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="#ffcc00"
+            android:id="@+id/editText"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    <TableLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:stretchColumns="2"
+        android:layout_gravity="center"
+        android:background="#e9eaec"
+        >
+        <TableRow >
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="130dp"
+                android:paddingLeft="10dp"
+                android:src="@drawable/le_hoi_ma_am" />
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_gravity="fill_horizontal"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="Lễ hội ma ám "
+                android:textColor="#2d769a" />
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="130dp"
+                android:paddingLeft="10dp"
+                android:src="@drawable/cua_hang_bong_dem" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="fill_horizontal"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:text="Cửa hàng bóng đêm "
+                android:textColor="#2d769a"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
